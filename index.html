@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Precious Nwaoha's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link rel="stylesheet" href="/font-awesome.css" />
+  </head>
+  <body>
+    <header>
+      <div>Presh</div>
+      <div class="menu" id="menu">
+        <span class="material-symbols-outlined"> density_medium </span>
+      </div>
+      <div class="menu hide" id="close-nav">
+        <span class="material-symbols-outlined"> close </span>
+      </div>
+
+      <nav id="nav">
+        <ul>
+          <li class="nav-item"><a href="/index.html#landing">Home</a></li>
+          <li class="nav-item"><a href="/index.html#about-me">About</a></li>
+          <li class="nav-item"><a href="/index.html#projects">projects</a></li>
+          <li class="nav-item"><a href="/index.html#services">services</a></li>
+          <li class="nav-item"><a href="/contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="landing" id="landing">
+        <article>
+          <h1>Hello, I'm <br />Precious Nwaoha</h1>
+          <h4>
+            Self-taught Fullstack Web2 and Web3 Developer, with 3 years of
+            experience.
+          </h4>
+          <p></p>
+        </article>
+        <div>
+          <img src="pic.png" />
+        </div>
+      </section>
+
+      <section class="about-me" id="about-me">
+        <div class="bg-color">
+          <article class="about">
+            <aside class="art left-art">
+              <div></div>
+              <div></div>
+              <div></div>
+            </aside>
+            <div>
+              <h2>About Me</h2>
+              <p>
+                I work on projects using mordern Javascript, Web API &
+                frameworks on a day-to-day basis and love to collaborate with
+                people build exceptional concepts and solve complex engineering
+                problems.
+              </p>
+              <div class="hobbies">
+                <h3>hobbies</h3>
+                <p>
+                  Coding, Business Analysis, Music, Games, Videos and Content
+                  Creation.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="priorities">
+            <div>
+              <h3>priorities</h3>
+            </div>
+            <div>
+              <p>Frontend Web Development</p>
+              <p>Backend Web Development</p>
+              <p>Blockchain Development</p>
+              <p>Product Led Dev</p>
+              <p>Business Analysis</p>
+            </div>
+          </article>
+        </div>
+        <article class="skills">
+          <h3>Skills</h3>
+          <div class="content">
+            <div class="skill">
+              <p>Javascript</p>
+              <img src="/assets/skills/js.png" alt="Javascript" />
+            </div>
+            <div class="skill">
+              <p>React</p>
+              <img src="/assets/skills/react.png" alt="React JS" />
+            </div>
+            <div class="skill">
+              <p>HTML</p>
+              <img src="/assets/skills/html.png" alt="HTML5" />
+            </div>
+            <div class="skill">
+              <p>CSS</p>
+              <img src="/assets/skills/css.png" alt="CSS3" />
+            </div>
+            <div class="skill">
+              <p>Next.js</p>
+              <img src="/assets/skills/next.png" alt="Next JS" />
+            </div>
+            <div class="skill">
+              <p>Python</p>
+              <img src="/assets/skills/py.png" alt="Python" />
+            </div>
+
+            <div class="skill">
+              <p>Node.js</p>
+              <img src="/assets/skills/node.png" alt="Node.js" />
+            </div>
+            <div class="skill">
+              <p>Solidity</p>
+              <img src="/assets/skills/solidity.png" alt="Solidity" />
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="hori-controls">
+          <div onclick="leftScrollHandler()"><</div>
+          <div onclick="rightScrollHandler()">></div>
+        </div>
+        <div class="hori" id="hori-projects">
+          
+          <div class="projects-item">
+            <img src="/assets/projects/project-10.png" />
+            <h4>Kaffy Store</h4>
+            <p>Full fledged e-commerce store</p>
+            <p class="techstack">Next.js, React, Firebase</p>
+            <a href="https://iamkaffy.com/store" class="project-link">
+              <span class="material-symbols-outlined"> north_east </span>
+            </a>
+          </div>
+          <div class="projects-item">
+            <img src="/assets/projects/project-12.png" />
+            <h4>Hupay</h4>
+            <p>Crypto Payment WebApp</p>
+            <p class="techstack">MERN Stack, Bunzz, Web3</p>
+            <a href="https://hupay.netlify.app" class="project-link">
+              <span class="material-symbols-outlined"> north_east </span>
+            </a>
+          </div>
+          <div class="projects-item">
+            <img src="/assets/projects/project-1.png" />
+            <h4>Portforlio Site</h4>
+            <p>For Precious Nwaoha</p>
+            <p class="techstack">CSS, HTML, JS</p>
+            <a href="https://preciousnwaoha.github.io" class="project-link">
+              <span class="material-symbols-outlined"> north_east </span>
+            </a>
+          </div>
+          <div class="projects-item">
+            <img src="/assets/projects/project-9.png" />
+            <h4>IAmKaffy</h4>
+            <p>Celebrity Personal Brand Site</p>
+            <p class="techstack">Next.js, React, Node</p>
+            <a href="https://iamkaffy.com" class="project-link">
+              <span class="material-symbols-outlined"> north_east </span>
+            </a>
+          </div>
+          <div class="projects-item">
+            <img src="/assets/projects/project-4.png" />
+            <h4>Ball Shooter</h4>
+            <p>Single Shooter 2D JS Game</p>
+            <p class="techstack">JS, HTML Canvas, CSS</p>
+            <a
+              href="https://preciousnwaoha.github.io/ball-shooter"
+              class="project-link"
+            >
+              <span class="material-symbols-outlined"> north_east </span>
+            </a>
+          </div>
+          <div class="projects-item">
+            <img src="/assets/projects/project-3.png" />
+            <h4>University Website</h4>
+            <p>Staic Site Design</p>
+            <p class="techstack">HTML, CSS, JS</p>
+            <a
+              href="https://preciousnwaoha.github.io/universitywebsite"
+              class="project-link"
+            >
+              <span class="material-symbols-outlined"> north_east </span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <h2>Services</h2>
+        <article>
+          <p>Frontend Web Development</p>
+          <p>SEO</p>
+          <p>Backend Web Development</p>
+          <p>Business Analysis</p>
+          <p>Web3 Development</p>
+          <p>E-commerce sites</p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div>
+          <h3>Presh</h3>
+          <p>Thanks for visiting</p>
+        </div>
+        <div>
+          <a class="contact-me-footer" href="contact.html">Contact Me</a>
+          <div class="socials">
+            <a
+              href="https://github.com/preciousnwaoha"
+              class="outer-shadow hover-in-shadow"
+              ><i class="fab fa-github"></i
+            ></a>
+
+            <a
+              href="https://www.linkedin.com/in/preciousnwaoha04/"
+              class="outer-shadow hover-in-shadow"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://twitter.com/PreciousNwaoha4"
+              class="outer-shadow hover-in-shadow"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <div class="copyright">&copy; @preciousnwaoha 2022</div>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
