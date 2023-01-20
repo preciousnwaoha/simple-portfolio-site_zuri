@@ -325,6 +325,7 @@ nav ul {
     margin-right: 1rem;
     background: var(--light-700);
     position: relative;
+    /* width: calc(80vw - 2rem); */
 }
 
 .projects-item img {
@@ -381,6 +382,33 @@ nav ul {
     100% {
         transform: translate(0, 0);
     }
+}
+
+.proj-link-github {
+    /* border: 1px solid red; */
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.proj-link-github a {
+    /* color: black; */
+    margin-left: 1rem;
+    outline: 1px solid transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    justify-content: center;
+}
+
+.proj-link-github a:hover {
+    outline-color: var(--dark-700);
 }
 
 
@@ -672,6 +700,10 @@ footer section h3 {
 
     .projects h2 {
         text-align: center;
+    }
+    .projects-item {
+
+        /* width: calc(30vw - 2rem); */
     }
 
     .projects-item img {

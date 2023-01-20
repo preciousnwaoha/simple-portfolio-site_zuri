@@ -1,0 +1,115 @@
+{
+    "projects": [
+        
+        {
+            "name": "IAMKAFFY",
+            "description": "Official Brand Site of a Celebrity",
+            "link": "https://iamkaffy.com",
+            "github": "https://github.com/preciousnwaoha/kaffy-brand-site",
+            "tools": ["Next.js", "SendinBlue API", "Firebase", "Node.js"],
+            "imgs": [
+                "/assets/projects/kaffy-1.png"
+            ]
+        },
+        {
+            "name": "Hupay",
+            "description": "Crypto wallet and payment app",
+            "link": "https://hupay.netlify.app",
+            "github": "https://github.com/preciousnwaoha/hupay",
+            "tools": ["React.js", "Node.js", "Bunzz", "Redux", "MongoDB", "Express"],
+            "imgs": [
+                "/assets/projects/hupay-1.png"
+            ]
+        },
+        {
+            "name": "Simply Recipes",
+            "description": "Gatsby Site for storing meal recipes",
+            "link": "https://simplyrecipees.netligy.app",
+            "github": "https://github.com/preciousnwaoha/simply-recipes",
+            "tools": ["Gatsby JS", "GraphQL", "CMS (Contentful)", "Styled Components"],
+            "imgs": [
+                "/assets/projects/recipes-1.png"
+            ]
+        },
+        {
+            "name": "Crowdsource by NSK.AI",
+            "description": "Perfect Clone of Google Crowdsource",
+            "link": "https://croudsouce-nsk.netlify.app",
+            "github": "https://github.com/preciousnwaoha/croudsource_by_nsk-ai",
+            "tools": ["Typescript", "Next.js", "React.js", "Material UI"],
+            "imgs": [
+                "/assets/projects/crowdsource-1.png"
+            ]
+        },
+        {
+            "name": "Portfolio Site",
+            "description": "My Official Website",
+            "link": "https://preciousnwaoha.github.io",
+            "github": "https://github.com/preciousnwaoha/preciousnwaoha",
+            "tools": ["SCSS", "HTML5", "JS"],
+            "imgs": [
+                "/assets/projects/portfolio-1.png"
+            ]
+        },
+        {
+            "name": "Flog",
+            "description": "Finance Logging Web App",
+            "link": "https://floger.netlify.app",
+            "github": "https://github.com/preciousnwaoha/flog",
+            "tools": ["Typescript", "Currency API", "HTML5", "CSS3"],
+            "imgs": [
+                "/assets/projects/flog-1.png"
+            ]
+        },
+        {
+            "name": "Trustee",
+            "description": "Transfer tokens and NFTs from Will (Team Project)",
+            "link": "https://trustee.vercel.app",
+            "github": "https://github.com/greyshaws/project-trustee",
+            "tools": ["Next.js", "Solidity", "Javascript", "Material UI"],
+            "imgs": [
+                "/assets/projects/trustee-1.png"
+            ]
+        },
+        {
+            "name": "Kaffy Store",
+            "description": "Full-fledged e-commerce store",
+            "link": "https://preciousnwaoha.github.io",
+            "github": "https://github.com/preciousnwaoha/kaffy-brandsite",
+            "tools": ["Next.js", "Firebase", "SendingBlue", "Javascript", "CSS", "Node.js"],
+            "imgs": [
+                "/assets/projects/kaffy-store-1.png"
+            ]
+        },
+        {
+            "name": "FIVA FOODS Order Site",
+            "description": "View available meal and place order",
+            "link": "https://preciousnwaoha.github.io",
+            "github": "https://github.com/preciousnwaoha/food-order-app",
+            "tools": ["React.js", "CSS3", "Firebase"],
+            "imgs": [
+                "/assets/projects/fivafoods-1.png"
+            ]
+        },
+        {
+            "name": "University Website",
+            "description": "Staic Site Design",
+            "link": "https://preciousnwaoha.github.io/universitywebsite",
+            "github": "https://github.com/preciousnwaoha/universitywebsite",
+            "tools": ["HTML5", "CSS3", "SASS"],
+            "imgs": [
+                "/assets/projects/university-1.png"
+            ]
+        },
+        {
+            "name": "Great Quotes",
+            "description": "Firebase web app for posting and viewing quotes",
+            "link": "https://guotes.netlify.app",
+            "github": "https://github.com/preciousnwaoha/seek-quotes",
+            "tools": ["React.js", "Firebase", "Javascript"],
+            "imgs": [
+                "/assets/projects/guotes-1.png"
+            ]
+        }
+    ]
+}
