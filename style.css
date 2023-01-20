@@ -330,6 +330,8 @@ nav ul {
 
 .projects-item img {
     width: calc(80vw - 2rem);
+    border-bottom: 2px solid var(--dark-700);
+    border-top: none;
 }
 
 .projects-item h4, .projects-item p:not(.techstack) {
@@ -365,7 +367,7 @@ nav ul {
 }
 
 .projects-item:hover img {
-    filter: brightness(50%);
+    /* filter: brightness(50%); */
 }
 
 .projects-item:hover .techstack {

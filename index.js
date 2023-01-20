@@ -71,10 +71,13 @@ const getProjects = async () => {
             <img src="${project.imgs[0]}" />
             <h4>${project.name || ("Project")}</h4>
             <p>${project.description || ""}</p>
-            <p class="techstack">${project.tools.join(", ")}/d/d</p>
-            <a href="${project.link}" class="project-link">
-              <span class="material-symbols-outlined"> north_east </span>
-            </a>
+            <p class="techstack">${project.tools.join(", ")}</p>
+            
+            <!-- 
+             <a href="${project.link}" class="project-link">
+               <span class="material-symbols-outlined"> north_east </span>
+             </a>
+             -->
 
             <div class="proj-link-github">
               <a
