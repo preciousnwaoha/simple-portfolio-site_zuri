@@ -24,7 +24,7 @@
         {
             "name": "Simply Recipes",
             "description": "Gatsby Site for storing meal recipes",
-            "link": "https://simplyrecipees.netligy.app",
+            "link": "https://simplyrecipees.netlify.app",
             "github": "https://github.com/preciousnwaoha/simply-recipes",
             "tools": ["Gatsby JS", "GraphQL", "CMS (Contentful)", "Styled Components"],
             "imgs": [
@@ -74,7 +74,7 @@
         {
             "name": "Kaffy Store",
             "description": "Full-fledged e-commerce store",
-            "link": "https://preciousnwaoha.github.io",
+            "link": "https://iamkaffy.com/store",
             "github": "https://github.com/preciousnwaoha/kaffy-brandsite",
             "tools": ["Next.js", "Firebase", "SendingBlue", "Javascript", "CSS", "Node.js"],
             "imgs": [
@@ -84,7 +84,7 @@
         {
             "name": "FIVA FOODS Order Site",
             "description": "View available meal and place order",
-            "link": "https://preciousnwaoha.github.io",
+            "link": "https://fivafood.netlify.app",
             "github": "https://github.com/preciousnwaoha/food-order-app",
             "tools": ["React.js", "CSS3", "Firebase"],
             "imgs": [
@@ -94,7 +94,7 @@
         {
             "name": "University Website",
             "description": "Staic Site Design",
-            "link": "https://preciousnwaoha.github.io/universitywebsite",
+            "link": "https://university-v1.netlify.app",
             "github": "https://github.com/preciousnwaoha/universitywebsite",
             "tools": ["HTML5", "CSS3", "SASS"],
             "imgs": [
