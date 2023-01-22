@@ -34,7 +34,7 @@
         {
             "name": "Crowdsource by NSK.AI",
             "description": "Perfect Clone of Google Crowdsource",
-            "link": "https://croudsource-nsk.netlify.app",
+            "link": "https://crowdsource-nsk.netlify.app",
             "github": "https://github.com/preciousnwaoha/croudsource_by_nsk-ai",
             "tools": ["Typescript", "Next.js", "React.js", "Material UI"],
             "imgs": [
